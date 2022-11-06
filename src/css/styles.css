@@ -1,31 +1,37 @@
 /*
-class="intro" example 
-.intro {
-    background-color: yellow;
-}
+class
+.intro {stuff}
 
-id="firstname" example
-#firstname {
-  background-color: yellow;
-}
-
+id
+#firstname {stuff}
 */
 :root {
     --main-color: #30a13d;
     --player-color: purple;
+    --theme : rgb(40,40,40);
+    --font-color: white;
+
 }
 
 html {
-    -moz-filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    background-color: grey;
+    background-color: var(--theme);
 }
 
-
-#logo {
-    background-color: yellow;
+h1, p {
+    color: var(--font-color);
 }
 
-.happy {
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+#head h1{
+    background-color: rgb(105, 57, 103);
+}
+
+#head p{
     background-color: orange;
 }
