@@ -10,15 +10,22 @@ id="firstname" example
 }
 
 */
-
-#head {
-    justify-content: center;
+:root {
+    --main-color: #30a13d;
+    --player-color: purple;
 }
+
+html {
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    background-color: grey;
+}
+
 
 #logo {
     background-color: yellow;
 }
 
 .happy {
-    background-color: yellow;
+    background-color: orange;
 }
