@@ -6,11 +6,8 @@ id
 #firstname {stuff}
 */
 :root {
-    --main-color: #30a13d;
-    --player-color: purple;
     --theme : rgb(40,40,40);
     --font-color: white;
-
 }
 
 html {
