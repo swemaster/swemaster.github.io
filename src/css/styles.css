@@ -8,13 +8,14 @@ id
 :root {
     --theme : rgb(40,40,40);
     --font-color: white;
+    --splash : aqua;
 }
 
 html {
     background-color: var(--theme);
 }
 
-h1, p {
+Title, h1, p {
     color: var(--font-color);
 }
 
@@ -23,6 +24,7 @@ h1, p {
     width: 50%;
     border: 3px solid green;
     padding: 10px;
+    margin-top: 50px;
   }
 
 #head h1{
@@ -32,3 +34,10 @@ h1, p {
 #head p{
     background-color: orange;
 }
+
+#box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: var(--splash);
+  }
