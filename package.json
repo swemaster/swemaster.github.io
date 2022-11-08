@@ -1,4 +1,6 @@
+// package.json
 {
+	"type": "module",
   "name": "client",
   "version": "1.0.0",
   "description": "Site Web (prototype)",
