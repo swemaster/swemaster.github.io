@@ -88,3 +88,9 @@ td, th {
   background-color: gray;
 }
 /* horaire */
+
+.margin {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
