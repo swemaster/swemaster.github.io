@@ -1,3 +1,27 @@
+body {
+  /* background-color: #4f4e5d;
+  color: white; */
+  background-color: white;
+  color: black;;
+}
+h1 {
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /* pour fixer le pied de page en bas de la page */
 footer {
   position: absolute;
@@ -5,13 +29,24 @@ footer {
   width: 99%;
 }
 
-body {
-  background-color: #2b2a33;
-  color: white;
+/* header */
+#nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:  auto;
 }
-h1 {
-  text-align: center;
+
+#nav li {
+  margin: 20px;
 }
+/* header */
+
+/* enlever la surbrillance des liens */
+a {
+  text-decoration: underline;
+}
+
 
 /* horaire */
 
@@ -21,6 +56,10 @@ h1 {
   align-items: center;
   margin: 0 auto;
 }
+
+#horaire a {
+    text-decoration: none;
+  }
 
 #legende {
   display: flex;
@@ -48,13 +87,4 @@ td, th {
 .indisponible {
   background-color: gray;
 }
-
 /* horaire */
-
-
-.container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; /* pour que le conteneur occupe toute la hauteur de la fenêtre */
-}
-
