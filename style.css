@@ -1,0 +1,60 @@
+/* pour fixer le pied de page en bas de la page */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+}
+
+body {
+  background-color: #2b2a33;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+
+/* horaire */
+
+#horaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#legende {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+
+table {
+  margin: 0 auto; /* pour centrer la table */
+  text-align: center;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 12px;
+}
+
+.disponible {
+  background-color: green;
+}
+
+.indisponible {
+  background-color: gray;
+}
+
+/* horaire */
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* pour que le conteneur occupe toute la hauteur de la fenêtre */
+}
+
