@@ -2,7 +2,7 @@ body {
   /* background-color: #4f4e5d;
   color: white; */
   background-color: white;
-  color: black;;
+  color: black;
 }
 h1 {
   text-align: center;
@@ -38,6 +38,14 @@ footer {
 
 #nav li {
   margin-inline: 7%;
+}
+
+#nav li:hover {
+  border-radius: 10px;
+  background-color: aqua;
+
+  /* animation: 0.5s ease-in-out forwards; */
+  animation: 2s ease-in-out forwards;
 }
 /* header */
 

@@ -7,6 +7,7 @@
   </head>
 
   <body>
+    <!-- Do a mouseover animation on the anchors elements that are children of <nav> -->
     <header>
       <nav>
         <ul class="flex-row" id="nav">
@@ -21,6 +22,26 @@
         </ul>
       </nav>
     </header>
+
+    <script>
+      const navLinks = document.querySelectorAll('#nav li a');
+    
+      navLinks.forEach(link => {
+        link.addEventListener('mouseover', () => {
+          link.style.animation = 'navLinkFade 0.5s ease forwards';
+        });
+    
+        link.addEventListener('mouseout', () => {
+          link.style.animation = 'none';
+        });
+      });
+    
+      const navToggle = document.querySelector('.nav-toggle');
+    
+      navToggle.addEventListener('click', () => {
+        document.body.classList.toggle('nav-open');
+      });
+    </script>
 
     <h1>Software Developer Projects</h1>
 
@@ -50,4 +71,5 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div><!-- /Project 2 -->
 
-  </body
+  </body>
+  </html>
