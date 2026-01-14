@@ -11,13 +11,24 @@ body {
   margin: 0;
   text-align: center;
 }
+body a {
+  color: #111;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #111;
+    color: #eee;
+  }
+  body a {
+    color: #eee;
+  }
+}
 h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   outline-style: double;
 }
 p {
-  color: #000000;
   margin-top: 0;
   outline-style: double;
 }
@@ -57,9 +68,15 @@ nav a {
   font-weight: 500;
   padding: 10px; /* Increases the clickable "Touch Target" area */
   transition: color 0.3s ease; /* Smooth feedback */
+  color: ;
 }
 
 /* The Hover Effect (Feedback) */
 nav a:hover {
   color: #0056b3;
+}
+
+.dark-mode img {
+  width: 20px;
+  height: 20px;
 }
