@@ -40,6 +40,8 @@ p {
 }
 /* The Container */
 nav {
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: space-between; /* Pushes Logo left, Links right */
   align-items: center; /* Vertically centers text */
